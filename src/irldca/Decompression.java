@@ -6,21 +6,6 @@ import java.util.List;
 public class Decompression {
 	private static int[] buffer = new int[32];
 
-	@SuppressWarnings({ "unchecked", "rawtypes" })
-	public static void main(String[] args) {
-		List input = new LinkedList<>();
-		input.add(0.0f);
-		input.add(0.020000001f);
-		input.add(0.3f);
-		input.add(1);
-		input.add(0.1f);
-		input.add(6);
-		input.add(8);
-		input.add(66596);
-		input.add(-1815150592);
-
-		decompress(input);
-	}
 
 	public static List<Float> decompress(List input) {
 
