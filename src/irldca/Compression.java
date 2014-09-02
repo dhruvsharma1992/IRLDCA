@@ -5,21 +5,7 @@ import java.util.List;
 
 public class Compression {
 
-	public static void main(String args[]) {
-		List<Float> checkList = new LinkedList<Float>();
-		for (float i = 0.002f; i < 0.0400; i += 0.0001) {
-			for (float j = 0; j < 2; j++) {
-				checkList.add(i);
-				checkList.add(i); 
-			}
-		}
-
-		List result;
-		//for (float i = 0.1f; i < 1.0f; i += 0.1)
-			System.out.println(compress(checkList, 0.1f));
-
-	}
-
+	
 	private static int[] buffer;
 	private static int arcoun;
 
