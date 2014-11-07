@@ -14,15 +14,15 @@ The format in which it returns the list object is as:
 Decompression.java : which provides a decompress(input) function to decompress a List object returned fromthe compress function. It returns back the  List of floating pont numbers.
 
 
-Input Format for  compression :  compress(List<Float> input, float  compress_factor) 
+Input Format for  compression :  compress(List(Float) input, float  compress_factor) 
 
-Output Format:  List<Float>
+Output Format:  List(Float)
 
 
 Input Format for decompression :  List<Float> returned from compression
 
 
-Output Format : List<Float> output, a List  similar to input (not exactly same because of compression losses)
+Output Format : List(Float) output, a List  similar to input (not exactly same because of compression losses)
 
 
 Future Plans:
